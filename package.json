@@ -1,0 +1,47 @@
+{
+  "name": "Bluetooth",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.15.7",
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-navigation/native": "^5.9.4",
+    "@react-navigation/stack": "^5.14.5",
+    "convert-string": "^0.1.0",
+    "react": "17.0.1",
+    "react-native": "0.64.2",
+    "react-native-actions-sheet": "^0.5.1",
+    "react-native-android-location-services-dialog-box": "^2.8.2",
+    "react-native-ble-manager": "^7.6.0",
+    "react-native-device-info": "^8.3.0",
+    "react-native-fast-storage": "^0.1.5",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-location": "^2.5.0",
+    "react-native-reanimated": "^2.2.0",
+    "react-native-safe-area-context": "^3.2.0",
+    "react-native-screens": "^3.4.0",
+    "react-native-snackbar-component": "^1.1.12",
+    "react-native-vector-icons": "^8.1.0",
+    "react-native-wavesdk": "file:/./react-native-wavesdk-1.4.5.tgz"
+  },
+  "devDependencies": {
+    "@babel/core": "7.14.8",
+    "@babel/runtime": "7.14.8",
+    "@react-native-community/eslint-config": "2.0.0",
+    "babel-jest": "26.6.3",
+    "eslint": "7.14.0",
+    "jest": "26.6.3",
+    "metro-react-native-babel-preset": "0.64.0",
+    "react-test-renderer": "17.0.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
